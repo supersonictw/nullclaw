@@ -23,7 +23,7 @@ Want a simpler way to install and configure nullclaw with a UI? Try [nullhub](ht
 
 The smallest fully autonomous AI assistant infrastructure — a static Zig binary that fits on any $5 board, boots in milliseconds, and requires nothing but libc.
 
-Docs: [English](docs/en/README.md) · [中文](docs/zh/README.md) · [Contributing](CONTRIBUTING.md) · [Discord](https://discord.gg/Bfmdua22Ud)
+Docs: [English](docs/en/README.md) · [正體中文](docs/zh-TW/README.md) · [中文](docs/zh/README.md) · [Contributing](CONTRIBUTING.md) · [Discord](https://discord.gg/Bfmdua22Ud)
 
 ```
 678 KB binary · <2 ms startup · 5,300+ tests · 50+ providers · 19 channels · Pluggable everything
@@ -74,20 +74,20 @@ ls -lh zig-out/bin/nullclaw
 
 Start here if you want the shortest path to install, configure, operate, or extend nullclaw.
 
-Localized documentation lives under `docs/en/` and `docs/zh/`. Use the links below to jump straight to the page you need.
+Localized documentation lives under `docs/en/`, `docs/zh-TW/`, and `docs/zh/`. Use the links below to jump straight to the page you need.
 
-| Need | English | 中文 |
-|---|---|---|
-| Start here | [`docs/en/README.md`](docs/en/README.md) | [`docs/zh/README.md`](docs/zh/README.md) |
-| Install | [`docs/en/installation.md`](docs/en/installation.md) | [`docs/zh/installation.md`](docs/zh/installation.md) |
-| Install Zig | [`docs/en/zig-installation.md`](docs/en/zig-installation.md) | [`docs/zh/zig-installation.md`](docs/zh/zig-installation.md) |
-| Configure | [`docs/en/configuration.md`](docs/en/configuration.md) | [`docs/zh/configuration.md`](docs/zh/configuration.md) |
-| Commands | [`docs/en/commands.md`](docs/en/commands.md) | [`docs/zh/commands.md`](docs/zh/commands.md) |
-| Development | [`docs/en/development.md`](docs/en/development.md) | [`docs/zh/development.md`](docs/zh/development.md) |
-| Operations | [`docs/en/usage.md`](docs/en/usage.md) | [`docs/zh/usage.md`](docs/zh/usage.md) |
-| Architecture | [`docs/en/architecture.md`](docs/en/architecture.md) | [`docs/zh/architecture.md`](docs/zh/architecture.md) |
-| Security | [`docs/en/security.md`](docs/en/security.md) | [`docs/zh/security.md`](docs/zh/security.md) |
-| Gateway API | [`docs/en/gateway-api.md`](docs/en/gateway-api.md) | [`docs/zh/gateway-api.md`](docs/zh/gateway-api.md) |
+| Need | English | 正體中文 | 中文 |
+|---|---|---|---|
+| Start here | [`docs/en/README.md`](docs/en/README.md) | [`docs/zh-TW/README.md`](docs/zh-TW/README.md) | [`docs/zh/README.md`](docs/zh/README.md) |
+| Install | [`docs/en/installation.md`](docs/en/installation.md) | [`docs/zh-TW/installation.md`](docs/zh-TW/installation.md) | [`docs/zh/installation.md`](docs/zh/installation.md) |
+| Install Zig | [`docs/en/zig-installation.md`](docs/en/zig-installation.md) | [`docs/zh-TW/zig-installation.md`](docs/zh-TW/zig-installation.md) | [`docs/zh/zig-installation.md`](docs/zh/zig-installation.md) |
+| Configure | [`docs/en/configuration.md`](docs/en/configuration.md) | [`docs/zh-TW/configuration.md`](docs/zh-TW/configuration.md) | [`docs/zh/configuration.md`](docs/zh/configuration.md) |
+| Commands | [`docs/en/commands.md`](docs/en/commands.md) | [`docs/zh-TW/commands.md`](docs/zh-TW/commands.md) | [`docs/zh/commands.md`](docs/zh/commands.md) |
+| Development | [`docs/en/development.md`](docs/en/development.md) | [`docs/zh-TW/development.md`](docs/zh-TW/development.md) | [`docs/zh/development.md`](docs/zh/development.md) |
+| Operations | [`docs/en/usage.md`](docs/en/usage.md) | [`docs/zh-TW/usage.md`](docs/zh-TW/usage.md) | [`docs/zh/usage.md`](docs/zh/usage.md) |
+| Architecture | [`docs/en/architecture.md`](docs/en/architecture.md) | [`docs/zh-TW/architecture.md`](docs/zh-TW/architecture.md) | [`docs/zh/architecture.md`](docs/zh/architecture.md) |
+| Security | [`docs/en/security.md`](docs/en/security.md) | [`docs/zh-TW/security.md`](docs/zh-TW/security.md) | [`docs/zh/security.md`](docs/zh/security.md) |
+| Gateway API | [`docs/en/gateway-api.md`](docs/en/gateway-api.md) | [`docs/zh-TW/gateway-api.md`](docs/zh-TW/gateway-api.md) | [`docs/zh/gateway-api.md`](docs/zh/gateway-api.md) |
 
 - Specialized guides: [`CONTRIBUTING.md`](CONTRIBUTING.md), [`SECURITY.md`](SECURITY.md), [`SIGNAL.md`](SIGNAL.md)
 
@@ -96,16 +96,17 @@ Localized documentation lives under `docs/en/` and `docs/zh/`. Use the links bel
 | Goal | Open this first | Then go to |
 |---|---|---|
 | First run in English | [`docs/en/README.md`](docs/en/README.md) | [`docs/en/installation.md`](docs/en/installation.md) → [`docs/en/configuration.md`](docs/en/configuration.md) → [`docs/en/usage.md`](docs/en/usage.md) |
+| Traditional Chinese Quick Start (正體中文快速上手) | [`docs/zh-TW/README.md`](docs/zh-TW/README.md) | [`docs/zh-TW/installation.md`](docs/zh-TW/installation.md) → [`docs/zh-TW/configuration.md`](docs/zh-TW/configuration.md) → [`docs/zh-TW/usage.md`](docs/zh-TW/usage.md) |
 | Chinese Quick Start (中文快速上手) | [`docs/zh/README.md`](docs/zh/README.md) | [`docs/zh/installation.md`](docs/zh/installation.md) → [`docs/zh/configuration.md`](docs/zh/configuration.md) → [`docs/zh/usage.md`](docs/zh/usage.md) |
-| Find the right CLI command | [`docs/en/commands.md`](docs/en/commands.md) / [`docs/zh/commands.md`](docs/zh/commands.md) | `nullclaw help` → task-specific subcommand page |
-| Contribute code or docs | [`CONTRIBUTING.md`](CONTRIBUTING.md) | [`docs/en/development.md`](docs/en/development.md) / [`docs/zh/development.md`](docs/zh/development.md) → relevant architecture page |
-| Operate or secure a deployment | [`docs/en/usage.md`](docs/en/usage.md) / [`docs/zh/usage.md`](docs/zh/usage.md) | [`docs/en/security.md`](docs/en/security.md) / [`docs/zh/security.md`](docs/zh/security.md) → Gateway API |
+| Find the right CLI command | [`docs/en/commands.md`](docs/en/commands.md) / [`docs/zh-TW/commands.md`](docs/zh-TW/commands.md) / [`docs/zh/commands.md`](docs/zh/commands.md) | `nullclaw help` → task-specific subcommand page |
+| Contribute code or docs | [`CONTRIBUTING.md`](CONTRIBUTING.md) | [`docs/en/development.md`](docs/en/development.md) / [`docs/zh-TW/development.md`](docs/zh-TW/development.md) / [`docs/zh/development.md`](docs/zh/development.md) → relevant architecture page |
+| Operate or secure a deployment | [`docs/en/usage.md`](docs/en/usage.md) / [`docs/zh-TW/usage.md`](docs/zh-TW/usage.md) / [`docs/zh/usage.md`](docs/zh/usage.md) | [`docs/en/security.md`](docs/en/security.md) / [`docs/zh-TW/security.md`](docs/zh-TW/security.md) / [`docs/zh/security.md`](docs/zh/security.md) → Gateway API |
 
 ## After This README
 
-- New here: jump to [`docs/en/README.md`](docs/en/README.md) or [`docs/zh/README.md`](docs/zh/README.md) and follow the guided reading order.
-- Want commands fast: open [`docs/en/commands.md`](docs/en/commands.md) or [`docs/zh/commands.md`](docs/zh/commands.md).
-- Want to submit a PR: start with [`CONTRIBUTING.md`](CONTRIBUTING.md), then read [`docs/en/development.md`](docs/en/development.md) or [`docs/zh/development.md`](docs/zh/development.md).
+- New here: jump to [`docs/en/README.md`](docs/en/README.md), [`docs/zh-TW/README.md`](docs/zh-TW/README.md), or [`docs/zh/README.md`](docs/zh/README.md) and follow the guided reading order.
+- Want commands fast: open [`docs/en/commands.md`](docs/en/commands.md), [`docs/zh-TW/commands.md`](docs/zh-TW/commands.md), or [`docs/zh/commands.md`](docs/zh/commands.md).
+- Want to submit a PR: start with [`CONTRIBUTING.md`](CONTRIBUTING.md), then read [`docs/en/development.md`](docs/en/development.md), [`docs/zh-TW/development.md`](docs/zh-TW/development.md), or [`docs/zh/development.md`](docs/zh/development.md).
 
 ## Quick Start
 
@@ -932,6 +933,19 @@ Implement a vtable interface, submit a PR:
 - New `Sandbox` backend -> `src/security/`
 - New `Peripheral` -> `src/peripherals.zig`
 - New `Skill` -> `~/.nullclaw/workspace/skills/<name>/` or `~/.nullclaw/workspace/skills/<category>/<name>/`
+
+## Traditional Chinese Docs (正體中文文件)
+
+- [Traditional Chinese docs overview (正體中文文件總覽)](docs/zh-TW/README.md)
+- [Installation guide (安裝指南)](docs/zh-TW/installation.md)
+- [Zig installation (Zig 安裝指南)](docs/zh-TW/zig-installation.md)
+- [Configuration guide (設定指南)](docs/zh-TW/configuration.md)
+- [Usage and operations (使用與維運)](docs/zh-TW/usage.md)
+- [Architecture overview (架構總覽)](docs/zh-TW/architecture.md)
+- [Security model (安全機制)](docs/zh-TW/security.md)
+- [Gateway API (正體中文)](docs/zh-TW/gateway-api.md)
+- [Commands reference (指令參考)](docs/zh-TW/commands.md)
+- [Development guide (開發指南)](docs/zh-TW/development.md)
 
 ## Chinese Docs (中文文档)
 
